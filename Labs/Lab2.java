@@ -2,6 +2,12 @@ package Labs;
 import java.util.Scanner;
 
 public class Lab2 {
+    public static void main(String[] args) {
+        try (Scanner in = new Scanner(System.in)) {
+            int test = in.nextInt();
+            System.out.println(test);
+        }
+    }
     //Part 1
 /*     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
