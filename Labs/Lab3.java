@@ -63,6 +63,7 @@ public class Lab3 {
         else
         System.out.printf("I-%d is auxiliary, serving I-%d, going north/south.\n",highway, hundered);
     } */
+    in.close();
     }
 }
 
