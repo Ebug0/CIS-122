@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Lab3 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-/*         //Part 1
+         //Part 1
         System.out.print("Enter in the red value: ");
         int red = in.nextInt();
         System.out.print("\nEnter in the green value: ");
@@ -23,10 +23,10 @@ public class Lab3 {
         green -= removecolor;
         blue -= removecolor;
 
-        System.out.printf("%d %d %d\n", red, green, blue); */
+        System.out.printf("%d %d %d\n", red, green, blue); 
 
         //part 2
-/*         int testleap = in.nextInt();
+         int testleap = in.nextInt();
 
         if(testleap % 4 == 0){
             if(testleap % 100 == 0){
@@ -40,11 +40,11 @@ public class Lab3 {
             System.out.println(testleap + " - leap year");
         }
         else
-        System.out.println(testleap + " - not a leap year"); */
+        System.out.println(testleap + " - not a leap year"); 
 
         // part 3
 
-/*         int highway = in.nextInt();
+        int highway = in.nextInt();
         
         if(highway<100 && highway != 0){
             if(highway % 2 == 0)
@@ -55,6 +55,7 @@ public class Lab3 {
         else {
             if(highway % 100 == 0){
             System.out.println(highway+ " is not a valid interstate highway number.");
+            in.close();
             return;
         }
         int hundered = highway % 100; 
@@ -62,7 +63,7 @@ public class Lab3 {
         System.out.printf("I-%d is auxiliary, serving I-%d, going east/west.\n",highway, hundered);
         else
         System.out.printf("I-%d is auxiliary, serving I-%d, going north/south.\n",highway, hundered);
-    } */
+    } 
     in.close();
     }
 }
