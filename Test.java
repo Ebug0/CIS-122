@@ -4,6 +4,8 @@ public class Test
 {
 public static void main(String[] args)
     {
+
+        
     int n = 8;
     if (n == 0){
         System.out.println("Then input is 0");
@@ -15,5 +17,7 @@ public static void main(String[] args)
         System.out.println("The input has a single digit.");
     }
 
+
+    
     }
 }
